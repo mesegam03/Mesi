@@ -1,0 +1,8 @@
+def func (*params):
+    max_val = params[0]
+    for i in params:
+        if (i > max_val):
+            max_val =i
+    return max_val
+print("max val",func(1,2,3,4,5,6))
+print("max val",func(2,3,4,15,6,7))
